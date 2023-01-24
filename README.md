@@ -9,7 +9,7 @@ as known from sh/bash, in JavaScript.
 ## Example
 
 ```js
-const expand = require('brace-expansion');
+import expand from "https://code4fukui.github.io/brace-expansion/index.js";
 
 expand('file-{a,b,c}.jpg')
 // => ['file-a.jpg', 'file-b.jpg', 'file-c.jpg']
@@ -45,7 +45,7 @@ expand('ppp{,config,oe{,conf}}')
 ## API
 
 ```js
-const expand = require('brace-expansion');
+import expand from "https://code4fukui.github.io/brace-expansion/index.js";
 ```
 
 ### const expanded = expand(str)
@@ -81,14 +81,6 @@ An alphabetic sequence from `x` to `y` inclusive, with optional increment.
 number.
 
 For compatibility reasons, the string `${` is not eligible for brace expansion.
-
-## Installation
-
-With [npm](https://npmjs.org) do:
-
-```bash
-npm install brace-expansion
-```
 
 ## Contributors
 

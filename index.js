@@ -1,4 +1,4 @@
-const balanced = require('balanced-match');
+import balanced from "https://code4fukui.github.io/balanced-match/index.js";
 
 const escSlash = '\0SLASH'+Math.random()+'\0';
 const escOpen = '\0OPEN'+Math.random()+'\0';
@@ -232,4 +232,4 @@ function expand(str, isTop) {
   return expansions;
 }
 
-module.exports = expandTop;
+export default expandTop;
